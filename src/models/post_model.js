@@ -6,7 +6,11 @@ const PostSchema = new Schema({
   tags: String,
   content: String,
   coverUrl: String,
-}, { timestamps: true });
+}, {
+  timestamps: true,
+  toObject: { virtuals: true },
+  toJSON: { virtuals: true },
+});
 
 // create PostModel class from schema
 const PostModel = mongoose.model('Post', PostSchema);
