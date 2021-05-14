@@ -34,13 +34,6 @@ app.get('/', (req, res) => {
   res.send('hi');
 });
 
-// START THE SERVER
-// =============================================================================
-const port = process.env.PORT || 9090;
-app.listen(port);
-
-console.log(`listening on: ${port}`);
-
 // DB Setup
 const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost/cs52platform_db';
 
@@ -54,3 +47,10 @@ mongoose.connect(mongoURI).then(() => {
 // all of our routes will be prefixed with /api
 // this should go AFTER body parser
 app.use('/api', apiRouter);
+
+// START THE SERVER
+// =============================================================================
+const port = process.env.PORT || 9090;
+app.listen(port);
+
+console.log(`listening on: ${port}`);
