@@ -19,5 +19,5 @@
 - Input validation for comments: no duplicate comments, no empty comments
 - Added parents array field to schema. Separated by commas and shows up as separate bubbles in display.
 - Added search bar that works in conjunction with the checkboxes (if you click on the dog checkmark and type in "coco" it will look for posts that match both criterion)
-
+  - The search bar covers Title, Tags, and Parents
 ## Screenshots
