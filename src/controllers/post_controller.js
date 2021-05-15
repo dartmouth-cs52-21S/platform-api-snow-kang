@@ -18,7 +18,7 @@ export const createPost = async (postFields) => {
 
 export const getPosts = async () => {
   try {
-    const allPosts = await Post.find({}, 'title tags coverUrl').sort({ createdAt: -1 });
+    const allPosts = await Post.find({}, 'title tags coverUrl parents').sort({ createdAt: -1 });
     return allPosts;
   } catch (error) {
     throw new Error(`get posts error: ${error}`);
