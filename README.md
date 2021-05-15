@@ -21,3 +21,8 @@
 - Added search bar that works in conjunction with the checkboxes (if you click on the dog checkmark and type in "coco" it will look for posts that match both criterion)
   - The search bar covers Title, Tags, and Parents
 ## Screenshots
+![screen1](https://user-images.githubusercontent.com/38738497/118359051-97472c80-b54f-11eb-8453-ba2b7d353d8f.PNG)
+![screen2](https://user-images.githubusercontent.com/38738497/118359052-97dfc300-b54f-11eb-9692-27336ddbaab9.PNG)
+![screen3](https://user-images.githubusercontent.com/38738497/118359053-97dfc300-b54f-11eb-918e-ed08ee73e3dc.PNG)
+![screen4](https://user-images.githubusercontent.com/38738497/118359054-97dfc300-b54f-11eb-8cb3-a3880145771d.PNG)
+![screen5](https://user-images.githubusercontent.com/38738497/118359050-97472c80-b54f-11eb-9fcf-8ef14dc99c49.PNG)
