@@ -6,6 +6,7 @@ const PostSchema = new Schema({
   tags: String,
   content: String,
   coverUrl: String,
+  comments: Array,
 }, {
   timestamps: true,
   toObject: { virtuals: true },

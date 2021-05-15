@@ -6,6 +6,7 @@ export const createPost = async (postFields) => {
   post.tags = postFields.tags;
   post.content = postFields.content;
   post.coverUrl = postFields.coverUrl;
+  post.comments = postFields.comments;
   try {
     const savedPost = await post.save();
     return savedPost;
