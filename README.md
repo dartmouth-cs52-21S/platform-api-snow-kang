@@ -7,10 +7,11 @@
 [api url](https://compli-pet-platform-server.herokuapp.com/)
 
 ## What Worked Well
-- The mongodb documentation was really straightforward so the routing went smoothly. 
+- The mongodb documentation was really straightforward so the routing went smoothly. Adding new features was super fun; going back and forth between backend and frontend was really cool and shows how much we have learned in this class!
 
 ## What Didn't
 - I had a typo in my schema where I wrote "contents" instead of "content" and it took me hours to figure out, so that wasn't great. I also am a bit confused about the ordering of the items in server.js. Out of the following four items, which have to go in a certain order and which are free to move around: the default index route, DB setup, registering routes, and starting the server? 
+- I still didn't fix the page loading sometimes flashing previous screens :( not sure how to fix
 
 ## Extra Credit
 - Changed my frontend and backend to support commenting
