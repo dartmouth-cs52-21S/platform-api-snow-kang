@@ -15,21 +15,28 @@ export const signin = (user) => {
 };
 
 // Passing in an object with these 3 keys
-export const signup = async ({ email, password }) => {
-  if (!email || !password) {
-    throw new Error('You must provide an email and password');
+export const signup = async ({ email, password, username }) => {
+  if (!email || !password || !username) {
+    throw new Error('You must provide an email, username, and password');
   }
 
   // See if a user with the given email exists
-  const existingUser = await User.findOne({ email });
-  if (existingUser) {
-    // If a user with email does exist, return an error
+  const existingEmail = await User.findOne({ email });
+  if (existingEmail) {
+    // If a user with email already exists, return an error
     throw new Error('Email is in use');
+  }
+
+  const existingUsername = await User.findOne({ username });
+  if (existingUsername) {
+    // If a user with username already exists, return an error
+    throw new Error('Username is in use');
   }
 
   const user = new User();
   user.email = email;
   user.password = password;
+  user.username = username;
 
   try {
     await user.save();
