@@ -2,6 +2,7 @@ import Post from '../models/post_model';
 
 export const createPost = async (postFields) => {
   const post = new Post();
+  post.author = postFields.author;
   post.title = postFields.title;
   post.tags = postFields.tags;
   post.content = postFields.content;
