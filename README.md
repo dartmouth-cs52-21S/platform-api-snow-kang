@@ -17,16 +17,19 @@ Lab 5: I had a typo in my schema where I wrote "contents" instead of "content" a
 SA7: I couldn't figure out how to do the author by reference in the Schema and instead did it using authorname :( I tried to separate modal into a separate component but ran out of time
 
 ## Extra Credit
+Lab 5:
 - Changed my frontend and backend to support commenting
 - Sort comments with newest first
 - Support comment deletion
 - Input validation for comments: no duplicate comments, no empty comments
 - Added parents array field to schema in addition to animal tag. Separated by commas and shows up as separate bubbles in display (animal tag as blue and parents as pink).
-  - Easy to visualize in the edit page where you are shown a preview of what the card (icon + tags) will look like
+  - Easy to visualize in the edit page where you are shown a dynamic preview of what the card (icon + tags) will look like
 - Added search bar that works in conjunction with the checkboxes (if you click on the dog checkmark and type in "coco" it will look for posts that match both criterion)
   - The search bar covers Title, Tags, and Parents
-- Added Error Reducer along with Auth Reducer to display toast notifications upon exceptions
+
+SA7:
 - Live preview of markdown editing
+- Added Error Reducer along with Auth Reducer to display toast notifications upon exceptions
 - Comments section only allowed if logged in (redirects you to signin page if you try to edit, delete, or comment)
 - Added mobile compatibility and a lot of more styling! Fixed a lot of edge cases such as super long data entries, oversized gifs, etc (functional in all screen sizes)
 - Incorporated all the suggestions Jordan, the TA who graded my Lab4, gave (removing \<br/\>'s, connected errors to redux state, adding a clear error to handle toasts, creating more components to further modularize my code) EXCEPT for the one about separating the modal :( I tried but struggled and ran out of time </3
