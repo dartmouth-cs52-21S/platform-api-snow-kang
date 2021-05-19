@@ -30,7 +30,7 @@ Lab5:
 SA7:
 - Added Error Reducer along with Auth Reducer to display toast notifications upon exceptions
 - Live preview of markdown editing
-- Comments section only allowed if logged in
+- Comments section only allowed if logged in (redirects you to signin page if you try to edit, delete, or comment)
 - Added mobile compatibility and a lot of more styling! Fixed a lot of edge cases such as super long data entries, oversized gifs, etc (functional in all screen sizes)
 - Incorporated all the suggestions Jordan, the TA who graded my Lab4, gave (removing \<br/\>'s, connected errors to redux state, adding a clear error to handle toasts, creating more components to further modularize my code)
 
