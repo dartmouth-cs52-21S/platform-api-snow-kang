@@ -29,6 +29,7 @@ Lab 5:
 
 SA7:
 - Live preview of markdown editing
+- Prevent duplicate animal tags (a string), prevent duplicate parent tags (contained in an array of strings) from displaying
 - Added Error Reducer along with Auth Reducer to display toast notifications upon exceptions
 - Comments section only allowed if logged in (redirects you to signin page if you try to edit, delete, or comment)
 - Added mobile compatibility and a lot of more styling! Fixed a lot of edge cases such as super long data entries, oversized gifs, etc (functional in all screen sizes)
