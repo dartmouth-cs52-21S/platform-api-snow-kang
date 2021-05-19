@@ -42,9 +42,13 @@ Lab 5:
 ![screen4](https://user-images.githubusercontent.com/38738497/118359054-97dfc300-b54f-11eb-8cb3-a3880145771d.PNG)
 
 SA7:
+Desktop & Mobile Screens for header:
 ![headerScreens](https://user-images.githubusercontent.com/38738497/118756592-42e6ca00-b839-11eb-9eca-0e57df9ab9bf.PNG)
+Desktop & Mobile Screens for cards:
 ![cardsScreen](https://user-images.githubusercontent.com/38738497/118756597-45e1ba80-b839-11eb-8c18-742965902f5c.PNG)
+Desktop & Mobile Screens for expanded cards:
 ![detailsScreen](https://user-images.githubusercontent.com/38738497/118756601-48441480-b839-11eb-84fa-7208a179e0fb.PNG)
+Desktop & Mobile Screens for signin:
 ![signInScreens](https://user-images.githubusercontent.com/38738497/118756604-4aa66e80-b839-11eb-8321-a75827e82969.PNG)
 
 
