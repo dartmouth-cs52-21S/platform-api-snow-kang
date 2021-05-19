@@ -17,7 +17,6 @@ Lab 5: I had a typo in my schema where I wrote "contents" instead of "content" a
 SA7: I couldn't figure out how to do the author by reference in the Schema and instead did it using authorname :( I tried to separate modal into a separate component but ran out of time
 
 ## Extra Credit
-Lab5:
 - Changed my frontend and backend to support commenting
 - Sort comments with newest first
 - Support comment deletion
@@ -26,8 +25,6 @@ Lab5:
   - Easy to visualize in the edit page where you are shown a preview of what the card (icon + tags) will look like
 - Added search bar that works in conjunction with the checkboxes (if you click on the dog checkmark and type in "coco" it will look for posts that match both criterion)
   - The search bar covers Title, Tags, and Parents
-
-SA7:
 - Added Error Reducer along with Auth Reducer to display toast notifications upon exceptions
 - Live preview of markdown editing
 - Comments section only allowed if logged in (redirects you to signin page if you try to edit, delete, or comment)
