@@ -32,7 +32,7 @@ SA7:
 - Live preview of markdown editing
 - Comments section only allowed if logged in
 - Added mobile compatibility (functional in all screen sizes)
-- Incorporated all the suggestions Jordan, the TA who graded my Lab4, gave (removing <br/>'s, connected errors to redux state, adding a clear error to handle toasts, creating more components to further modularize my code)
+- Incorporated all the suggestions Jordan, the TA who graded my Lab4, gave (removing \<br/\>'s, connected errors to redux state, adding a clear error to handle toasts, creating more components to further modularize my code)
 
 ## Screenshots
 ![screen1](https://user-images.githubusercontent.com/38738497/118359051-97472c80-b54f-11eb-8453-ba2b7d353d8f.PNG)
