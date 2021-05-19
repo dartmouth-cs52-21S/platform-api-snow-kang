@@ -9,11 +9,10 @@ router.get('/', (req, res) => {
   res.json({ message: 'welcome to our blog api!' });
 });
 
-/// your routes will go here
 router.route('/posts')
   .post(requireAuth, async (req, res) => {
     try {
-      const result = await Posts.createPost(req.body);
+      const result = await Posts.createPost(req.body, req.user.username);
       res.json(result);
     } catch (error) {
       res.status(500).json({ error });
