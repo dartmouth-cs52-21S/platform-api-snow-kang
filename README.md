@@ -32,7 +32,7 @@ SA7:
 - Live preview of markdown editing
 - Comments section only allowed if logged in (redirects you to signin page if you try to edit, delete, or comment)
 - Added mobile compatibility and a lot of more styling! Fixed a lot of edge cases such as super long data entries, oversized gifs, etc (functional in all screen sizes)
-- Incorporated all the suggestions Jordan, the TA who graded my Lab4, gave (removing \<br/\>'s, connected errors to redux state, adding a clear error to handle toasts, creating more components to further modularize my code)
+- Incorporated all the suggestions Jordan, the TA who graded my Lab4, gave (removing \<br/\>'s, connected errors to redux state, adding a clear error to handle toasts, creating more components to further modularize my code) EXCEPT for the one about separating the modal :( I tried but struggled and ran out of time </3
 
 ## Screenshots
 Lab 5:
