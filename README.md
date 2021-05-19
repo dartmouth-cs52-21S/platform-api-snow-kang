@@ -9,12 +9,12 @@
 ## What Worked Well
 Lab 5: The mongodb documentation was really straightforward so the routing went smoothly. Adding new features was super fun; going back and forth between backend and frontend was really cool and shows how much we have learned in this class!
 
-SA7: This SA helped me understand JWT and Passport a lot more. It also gave me the chance to go back and add more styling that I didn't have time to add before. 
+SA7: This SA helped me understand JWT and Passport a lot more. It also gave me the chance to go back and add more styling that I didn't have time to add before. I also fixed the horizontal glitch that I struggled with in Lab 5. 
 
 ## What Didn't
-Lab 5: I had a typo in my schema where I wrote "contents" instead of "content" and it took me hours to figure out, so that wasn't great. I also am a bit confused about the ordering of the items in server.js. Out of the following four items, which have to go in a certain order and which are free to move around: the default index route, DB setup, registering routes, and starting the server? 
+Lab 5: I had a typo in my schema where I wrote "contents" instead of "content" and it took me hours to figure out, so that wasn't great. There is a weird horizontal glitch that happens sometimes due to the scrollbar sometimes being present and sometimes not. I also am a bit confused about the ordering of the items in server.js. Out of the following four items, which have to go in a certain order and which are free to move around: the default index route, DB setup, registering routes, and starting the server? 
 
-SA7: 
+SA7: I couldn't figure out how to do the author by reference in the Schema and instead did it using authorname :( 
 
 ## Extra Credit
 Lab5:
