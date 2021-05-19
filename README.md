@@ -35,8 +35,19 @@ SA7:
 - Incorporated all the suggestions Jordan, the TA who graded my Lab4, gave (removing \<br/\>'s, connected errors to redux state, adding a clear error to handle toasts, creating more components to further modularize my code)
 
 ## Screenshots
+Lab 5:
 ![screen1](https://user-images.githubusercontent.com/38738497/118359051-97472c80-b54f-11eb-8453-ba2b7d353d8f.PNG)
 ![screen2](https://user-images.githubusercontent.com/38738497/118359052-97dfc300-b54f-11eb-9692-27336ddbaab9.PNG)
 ![screen3](https://user-images.githubusercontent.com/38738497/118359053-97dfc300-b54f-11eb-918e-ed08ee73e3dc.PNG)
 ![screen4](https://user-images.githubusercontent.com/38738497/118359054-97dfc300-b54f-11eb-8cb3-a3880145771d.PNG)
-![screen5](https://user-images.githubusercontent.com/38738497/118359050-97472c80-b54f-11eb-9fcf-8ef14dc99c49.PNG)
+
+SA7:
+![headerScreens](https://user-images.githubusercontent.com/38738497/118756592-42e6ca00-b839-11eb-9eca-0e57df9ab9bf.PNG)
+![cardsScreen](https://user-images.githubusercontent.com/38738497/118756597-45e1ba80-b839-11eb-8c18-742965902f5c.PNG)
+![detailsScreen](https://user-images.githubusercontent.com/38738497/118756601-48441480-b839-11eb-84fa-7208a179e0fb.PNG)
+![signInScreens](https://user-images.githubusercontent.com/38738497/118756604-4aa66e80-b839-11eb-8321-a75827e82969.PNG)
+
+
+
+
+
