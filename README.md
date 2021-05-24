@@ -22,6 +22,7 @@ Lab 5:
 - Sort comments with newest first
 - Support comment deletion
 - Input validation for comments: no duplicate comments, no empty comments
+- Image Upload w AWS S3
 - Added parents array field to schema in addition to animal tag. Separated by commas and shows up as separate bubbles in display (animal tag as blue and parents as pink).
   - Easy to visualize in the edit page where you are shown a dynamic preview of what the card (icon + tags) will look like
 - Added search bar that works in conjunction with the checkboxes (if you click on the dog checkmark and type in "coco" it will look for posts that match both criterion)
