@@ -26,7 +26,6 @@ Lab 5:
 - Sort comments with newest first
 - Support comment deletion
 - Input validation for comments: no duplicate comments, no empty comments
-- Image Upload w AWS S3
 - Added parents array field to schema in addition to animal tag. Separated by commas and shows up as separate bubbles in display (animal tag as blue and parents as pink).
   - Easy to visualize in the edit page where you are shown a dynamic preview of what the card (icon + tags) will look like
 - Added search bar that works in conjunction with the checkboxes (if you click on the dog checkmark and type in "coco" it will look for posts that match both criterion)
@@ -39,6 +38,7 @@ SA7:
 - Redirects you to signin page if you try to edit, create, comment on, or delete a post
 - Added mobile compatibility and a lot of more styling! Fixed a lot of edge cases such as super long data entries, oversized gifs, etc (functional in all screen sizes)
 - Incorporated all the suggestions Jordan, the TA who graded my Lab4, gave (removing \<br/\>'s, connected errors to redux state, adding a clear error to handle toasts, creating more components to further modularize my code) EXCEPT for the one about separating the modal :( I tried but struggled and ran out of time </3
+- Image Upload w AWS S3
 
 ## Screenshots
 Lab 5:
