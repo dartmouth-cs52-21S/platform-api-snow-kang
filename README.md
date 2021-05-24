@@ -36,7 +36,7 @@ SA7:
 - Live preview of markdown editing
 - Prevent duplicate animal tags (a string), prevent duplicate parent tags (contained in an array of strings) from displaying
 - Added Error Reducer along with Auth Reducer to display toast notifications upon exceptions
-- Redirects you to signin page if you try to edit, create, or delete a post
+- Redirects you to signin page if you try to edit, create, comment on, or delete a post
 - Added mobile compatibility and a lot of more styling! Fixed a lot of edge cases such as super long data entries, oversized gifs, etc (functional in all screen sizes)
 - Incorporated all the suggestions Jordan, the TA who graded my Lab4, gave (removing \<br/\>'s, connected errors to redux state, adding a clear error to handle toasts, creating more components to further modularize my code) EXCEPT for the one about separating the modal :( I tried but struggled and ran out of time </3
 
