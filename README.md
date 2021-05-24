@@ -2,6 +2,10 @@
 
 *Compli-Pet Platform API*
 
+[deployed url](https://snowxposts.netlify.app)
+
+[client github url](https://github.com/dartmouth-cs52-21S/platform-client-snow-kang)
+
 [netlify client url](https://snowxposts.netlify.app/)
 
 [heroku api url](https://compli-pet-platform-server.herokuapp.com/)
