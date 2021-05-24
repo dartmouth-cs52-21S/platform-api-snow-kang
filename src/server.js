@@ -6,8 +6,6 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import apiRouter from './router';
 
-dotenv.config({ silent: true });
-
 // initialize
 const app = express();
 
@@ -31,6 +29,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json()); // To parse the incoming requests with JSON payloads
 
 // additional init stuff should go before hitting the routing
+dotenv.config({ silent: true });
 
 // default index route
 app.get('/', (req, res) => {
